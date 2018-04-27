@@ -34,8 +34,6 @@ class EventSubscriber implements EventSubscriberInterface {
           'environment' => $environment,
         ]
       );
-
-      Rollbar::log(Level::INFO, 'testing info level');
     }
   }
 

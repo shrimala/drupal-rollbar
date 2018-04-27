@@ -1,7 +1,9 @@
 {
     "name": "gwa/drupal_rollbar",
-    "description": "Mobile_Detect is a lightweight PHP class for detecting mobile devices.",
+    "description": "Drupal 8 module that integrates Rollbar.",
     "type": "drupal-module",
+    "homepage": "https://github.com/gwa/drupal-rollbar",
+    "license": "MIT",
     "require": {
         "rollbar/rollbar": "~1.4.1"
     }
