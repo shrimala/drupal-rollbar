@@ -1,5 +1,5 @@
 services:
   rollbar.event_subscriber:
-    class: Drupal\rollbar\Subscriber\EventSubscriber
+    class: Drupal\drupal_rollbar\Subscriber\EventSubscriber
     tags:
       - { name: event_subscriber }
